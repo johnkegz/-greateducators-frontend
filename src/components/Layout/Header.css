@@ -15,7 +15,7 @@
 .name {
   background-color: black;
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   padding-right: 0.8em;
 }
@@ -29,10 +29,10 @@
 
 .navigation a {
   display: inline-block;
-  padding: 0.8em 1.8em;
+  padding: 0.8em 1.4em;
   text-decoration: none;
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   align-items: center;
   justify-content: center;
 }
@@ -50,18 +50,20 @@
   padding: 0.5em 2.5em;
   cursor: pointer;
 }
-
-.searchWord{
-  padding-right: 20px
+.searchWord {
+  padding-right: 20px;
 }
-.searchWidget{
+.searchWidget {
   width: 650px;
 }
-.searchWidgetContainer{
+.searchWidgetContainer {
   padding: 0.4em 0.3em;
 }
 
-.backToMenu{
-  color:white;
+.backToMenu {
+  color: white;
   padding: 0.8em 0.4em;
+}
+.bars {
+  font-family: Arial, Helvetica, sans-serif;
 }
