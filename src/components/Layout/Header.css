@@ -1,0 +1,67 @@
+/** @format */
+
+.topNav {
+  background-color: white;
+}
+.NavOuterContainer {
+  margin-left: 0;
+  margin-right: 0;
+  background-color: black;
+}
+.logo {
+  color: red;
+  padding: 2px;
+}
+.name {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  padding-right: 0.8em;
+}
+.navContainer {
+  display: flex;
+}
+
+.navContainer > div {
+  display: flex;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 0.8em 1.8em;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: orange;
+  color: white;
+}
+
+.search {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0.5em 2.5em;
+  cursor: pointer;
+}
+
+.searchWord{
+  padding-right: 20px
+}
+.searchWidget{
+  width: 650px;
+}
+.searchWidgetContainer{
+  padding: 0.4em 0.3em;
+}
+
+.backToMenu{
+  color:white;
+  padding: 0.8em 0.4em;
+}
