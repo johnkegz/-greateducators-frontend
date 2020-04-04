@@ -1,15 +1,18 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import {testAction} from "../../redux/actions/actions";
-import "./Home.scss"
+import "./Home.css"
 import Sider from "./Slider";
+import MainInfo from "./MainInfo";
+import Schools from "./Schools"
 
 class Home extends Component {
     render() {
-        console.log("props>", this.props)
         return (
             <div>
                   <Sider />
+                  <MainInfo />
+                  <Schools />
             </div>
         )
     }
