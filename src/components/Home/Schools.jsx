@@ -52,7 +52,7 @@ function rowTwo(){
         <div className="row">
         <div class="col-md-12">
   <div class="column" style={{width: "35%"}}>
-   <img src="http://greateducatorsug.org/img/adverts/mixed2.png" style={{width:"100%"}} />
+   <img src="http://greateducatorsug.org/img/adverts/mixed2.png" style={{width:"100%"}} alt="" />
   <div class="bottom-left down-adverts"><b>Mbogo mixed</b></div>
   </div>
     <div class="column" style={{width: "15%"}}>
