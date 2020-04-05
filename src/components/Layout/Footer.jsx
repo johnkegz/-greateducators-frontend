@@ -99,7 +99,7 @@ function Footer() {
                 />
               </div>
               <div className="contactUsWidget">
-                <textarea cols="25" rows="5" placeholder="message"></textarea>
+                <textarea cols="25" rows="5" placeholder="message" className="textArea"></textarea>
               </div>
               <div className="contactUsWidget">
                 <input

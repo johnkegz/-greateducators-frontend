@@ -1,0 +1,12 @@
+.objectiveItem {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+.objectiveItemHeader .col-md-12{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
