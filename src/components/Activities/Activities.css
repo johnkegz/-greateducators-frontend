@@ -1,0 +1,23 @@
+/** @format */
+
+.activitiesContainer {
+}
+
+.acivityItem {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.listLine {
+  height: 1px;
+  background-color: #29303b;
+}
+
+.acivityItemHeader {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
