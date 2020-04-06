@@ -6,6 +6,7 @@ import Aboutus from "./components/Aboutus/Aboutus"
 import Page from "./components/Layout/page";
 import Activities from './components/Activities';
 import Objectives from './components/Objectives';
+import Obituaries from './components/Obituaries';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path='/aboutus' component={Aboutus}/>
           <Route path='/activities' component={Activities}/>
           <Route path='/objectives' component={Objectives}/>
+          <Route path='/obituaries' component={Obituaries}/>
         </Page>
         </Switch>
       </Router>

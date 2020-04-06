@@ -1,0 +1,28 @@
+
+.row .obituaries{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-color: red;
+    margin-top: 30px;
+}
+
+.nameOverlay{
+    position: absolute;
+    height: 100px;
+    background:rgba(0,0,0,0.7);
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+
+.nameOverlayTitle{
+    color: #ffffff;
+    padding: 2px;
+}
+
+.nameOverlayContent{
+    color: #ffffff;
+    padding: 2px;
+    font-size: 13px;
+}
