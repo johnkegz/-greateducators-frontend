@@ -1,0 +1,27 @@
+
+.row .searchResult{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.searchNameOverlay{
+    position: absolute;
+    height: 100px;
+    background:rgba(0,0,0,0.7);
+    bottom: 0;
+    width: 100%;
+    padding: 2px;
+}
+
+.searchNameOverlayTitle{
+    color: #ffffff;
+    padding: 2px;
+}
+
+.searchNameOverlayContent{
+    color: #ffffff;
+    padding: 2px;
+    font-size: 13px;
+}
