@@ -7,6 +7,7 @@ import Page from "./components/Layout/page";
 import Activities from './components/Activities';
 import Objectives from './components/Objectives';
 import Obituaries from './components/Obituaries';
+import Board from './components/Board';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
           <Route path='/activities' component={Activities}/>
           <Route path='/objectives' component={Objectives}/>
           <Route path='/obituaries' component={Obituaries}/>
+          <Route path='/board' component={Board}/>
         </Page>
         </Switch>
       </Router>
