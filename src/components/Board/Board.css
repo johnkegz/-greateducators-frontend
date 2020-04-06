@@ -1,0 +1,29 @@
+/** @format */
+
+.row .board {
+  position: relative;
+  height: 250px;
+  width: 100%;
+  background-color: red;
+  margin-top: 30px;
+}
+
+.boardNameOverlay {
+  position: absolute;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  width: 100%;
+  padding: 2px;
+}
+
+.boardNameOverlayTitle {
+  color: #ffffff;
+  padding: 2px;
+}
+
+.boardNameOverlayContent {
+  color: #ffffff;
+  padding: 2px;
+  font-size: 13px;
+}
